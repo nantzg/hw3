@@ -34,7 +34,7 @@ class App extends Component {
     }
 
 //GN notes: and then you add in the images
-//let newhand = shuffledDeck.splice(0,47);
+
 
   render() {
     // array to hold JSX elements
