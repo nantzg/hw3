@@ -61,3 +61,16 @@ class App extends Component {
 
 export default App;
 //removed {cards} from between h1s
+
+//alternative way to write cards (loop)
+//render() {
+//let cards = [];
+//for let(i=0; i<this.state.hand.length; i++) {
+    //let cardImage = "http://golearntocode.com/images/cards/" + this.state.hand[i] + ".png";
+    //cards.push(
+      //<img key={"card" + i} alt={i} src={cardImage} />
+  //)
+//}
+//}
+
+//NOTE: you always need () after a function in js, esp. Reactjs
